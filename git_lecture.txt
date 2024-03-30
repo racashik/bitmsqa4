@@ -30,3 +30,22 @@ git push -u origin main		--> Everytime use this command to Push the update into 
 --> Copy the HTTPS URL
 --> from CMD select the directory
 --> git clone "HTTPS URL"
+
+
+******* Create new branch ***********
+git branch              --> check present branch
+git branch dev          --> Cheate a new branch named "dev"
+git checkout master     --> switch to the "Master" / "Main" branch
+git checkout dev        --> switch to the "dev" branch
+notepad dev.txt         --> creat a new file inside the dev branch
+git add .
+git commit -m "Dev update"
+git push --set-upstream origin dev     --> Use to push the dev branch on Github 
+
+
+
+ 
+
+
+
+
