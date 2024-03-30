@@ -15,3 +15,18 @@ git commit -m "First update"	--> Make the Comment to store into "Local Repositor
 git branch -M main
 git remote add origin https://github.com/racashik/bitmsqa4.git   --> Add Repository url
 git push -u origin main		--> Everytime use this command to Push the update into GitHub
+
+
+******** Share own repository with other
+--> Go to the repository file
+--> Settings
+--> Collaborators 
+--> add email/user name to send invitation
+
+
+******* Clone / Pull others repository ************
+--> Go to the client's repository
+--> go to clone
+--> Copy the HTTPS URL
+--> from CMD select the directory
+--> git clone "HTTPS URL"
