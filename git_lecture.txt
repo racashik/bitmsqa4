@@ -1,0 +1,16 @@
+D:
+mkdir Ashik
+cd Ashik
+git init
+git status
+notepad file1.txt
+git add .
+file1.txt
+git restore file1.txt
+git commit -m "First update"
+
+*******Open a "Repository" in Github
+
+git branch -M main
+git remote add origin https://github.com/racashik/test.git
+git push -u origin main
